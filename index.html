@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>TrueID -- trueid.semantometrics.org</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="index, follow">
+
+		<!-- Bootstrap Core CSS file -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+		<!-- Conditional comment containing JS files for IE6 - 8 -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<!-- Navigation -->
+	    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container-fluid">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">trueid.semantometrics.org</a>
+				</div>
+				<!-- /.navbar-header -->
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#about">About</a></li>
+						<li><a href="#download">Download</a></li>
+						<li><a href="#publications">Publications</a></li>
+						<li><a href="#people">People</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<!-- /.navbar -->
+
+		<!-- Page Content -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+
+					<!-- Page Heading -->
+					<h1>TrueID</h1>
+					<hr>
+					<p class="lead">TrueID is a dataset of scholarly publications, which was designed to facilitate the development and validation new methods in the area of research evaluation. The dataset consists of research publications of two types &mdash; research papers which are considered seminal work in their area and papers which provide a survey (a literature review) of a research area. It also contains related metadata, which include DOIs, titles, authors and abstracts.</p>
+
+					<hr id="about" />
+
+					<!-- Heading levels -->
+					<h2>About</h2>
+
+					<!-- Paragraphs -->
+					<!--<h3>Paragraphs</h3>-->
+					<p>The dataset currently contains:</p>
+					<ul>
+						<li>314 research publications &mdash; 166 seminal papers and 148 surveys</li>
+						<li>DOIs and URLs, titles, abstracts, authors and years of publication</li>
+						<li>Number of citations in Google Scholar and Web of Science and number of readers in Mendeley</li>
+						<li>Citing and cited references from Web of Science</li>
+						<li>Metadata from Mendeley including reader information</li>
+					</ul>
+					<p>A detailed analysis of the dataset is provided in <a href="#">our publication.</a></p>
+
+					<hr id="download" />
+
+
+
+					<!-- Alignment classes -->
+					<h2>Download</h2>
+					<p>You can download the separate files or the whole dataset as an archive.</p>
+					<ul>
+						<li><a href="trueid/responses.csv">Survey responses</a></li>
+						<li><a href="trueid/papers.csv">Papers</a></li>
+						<li><a href="trueid/mendeley_metadata.csv">Mendeley metadata</a></li>
+						<li><a href="trueid/papers_citing_cited.csv">Citing and cited references</a></li>
+						<li><a href="trueid/citation_edges.csv">Citation edges</a></li>
+					</ul>
+					<p><a class="button" href="trueid.tar.gz">trueid.tar.gz</a></p>
+
+					<h3>Additional files</h3>
+					<p>Below you can download the original survey form we used to collect the data and the unprocessed responses we've received.</p>
+					<ul>
+						<li>Survey form</li>
+						<li>Raw responses</li>
+					</ul>
+
+					<h3>Code</h3>
+					<p>All Python source codes which we've used to clean and analyze the data are available via <a href="#">GitHub</a>.</p>
+
+					<hr id="publications" />
+
+					<h2>Publications</h2>
+					<p>If you use TrueID in any published work, we kindly request that you cite our publication below.</p>
+					<blockquote>
+						<p>Herrmannova, D., Patton, R. M., Knoth, P., & Stahl, C. G. 2017. <i>Do Citations Identify Excellent Publications? Introducting TrueID, a New Dataset for Validating Research Evaluation Metrics.</i> ArXiv Preprint.</p>
+					</blockquote>
+
+					<hr id="people" />
+
+					<h2>People</h2>
+					<ul>
+						<li><b>Drahomira Herrmannova</b>, Knowledge Media Institute, The Open University, UK</li>
+						<li><b>Robert M. Patton</b>, Oak Ridge National Laboratory, USA</li>
+						<li><b>Petr Knoth</b>, Knowledge Media Institute, The Open University, UK</li>
+						<li><b>Christopher G. Stahl</b>, Oak Ridge National Laboratory, USA</li>
+					</ul>
+
+					<hr />
+
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container-fluid -->
+
+		<!-- JQuery scripts -->
+	    <script src="assets/js/jquery-1.11.2.min.js"></script>
+
+		<!-- Bootstrap Core scripts -->
+		<script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

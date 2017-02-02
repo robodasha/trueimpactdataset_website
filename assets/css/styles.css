@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+/*------------------------------------*\
+	#OVERRIDE STLES
+	This style sheet can be used for two different functions:
+	1. Override specific Bootstrap styles.
+	2. Add your own styles.
+\*------------------------------------*/
+
+/**
+ * Padding-top is required if using .navbar-fixed-top.
+ * This can be removed Remove if using .navbar-static-top.
+ * The height may need to be changed if the height of you
+ * navigation changes.
+*/
+
+body {
+    padding-top: 70px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+}
+
+
+
+/**
+ * Bootstrap requires a containing element to wrap site contents 
+ * and house the grid system. You may choose one of two containers.
+ * Use .container for a responsive fixed width container.
+ * Use .container-fluid for a full width container.
+
+ * If using container-fluid, you may need to set a maximum width, 
+ * so that the container will not spread to the entire viewport.
+*/
+
+.container-fluid { max-width: 900px; }
+
+a {
+    color: #6FAB4F;
+}
+
+a.button {
+    background-color: #80B763;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 22px;
+    font-size: 0.8em;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.button-reversed {
+    background-color: #333;
+}
+
+a.button:hover {
+    background-color: #669D48;
+}
+
+a.button-reversed:hover {
+    background-color: #222;
+}
+
+h3 {
+    color: #80B763;
+}
+
+.hash-link {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    min-height: 55px;
+}
+
+.navbar-inverse {
+    background-color: #80B763;
+    border-color: #eee;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    padding-top: 18px;
+}
