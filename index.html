@@ -92,21 +92,14 @@
 
 					<!-- Alignment classes -->
 					<h2>Download</h2>
-					<p>You can download the separate files or the whole dataset as an archive.</p>
-					<ul>
-						<li><a href="trueid/responses.csv">Survey responses</a></li>
-						<li><a href="trueid/papers.csv">Papers</a></li>
-						<li><a href="trueid/mendeley_metadata.csv">Mendeley metadata</a></li>
-						<li><a href="trueid/papers_citing_cited.csv">Citing and cited references</a></li>
-						<li><a href="trueid/citation_edges.csv">Citation edges</a></li>
-					</ul>
-					<p><a class="button" href="dataset.tar.gz">dataset.tar.gz</a></p>
+					<p>Download the whole dataset as an archive.</p>
+					<p><a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'data', 'eventAction': 'download', 'eventLabel': this.href});" class="button" href="dataset.tar.gz" target="_blank">dataset.tar.gz</a></p>
 
 					<h3>Additional files</h3>
 					<p>Below you can download the original survey form we used to collect the data and the unprocessed responses we've received.</p>
 					<ul>
-						<li>Survey form</li>
-						<li>Raw responses</li>
+						<li><a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'data', 'eventAction': 'download', 'eventLabel': this.href});" href="dataset/survey_form.pdf">Survey form</a></li>
+						<li><a onclick="ga('send', {'hitType': 'event', 'eventCategory': 'data', 'eventAction': 'download', 'eventLabel': this.href});" href="dataset/raw_responses.csv">Raw responses</a></li>
 					</ul>
 
 					<h3>Code</h3>
