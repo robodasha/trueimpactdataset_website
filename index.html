@@ -18,6 +18,15 @@
 			<script src="assets/js/html5.js"></script>
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
+
+		<script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-92344069-1', 'auto');
+            ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 
@@ -33,7 +42,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">trueid.semantometrics.org</a>
+					<a class="navbar-brand" href="#">TrueImpactDataset.semantometrics.org</a>
 				</div>
 				<!-- /.navbar-header -->
 
@@ -58,9 +67,9 @@
 				<div class="col-sm-12">
 
 					<!-- Page Heading -->
-					<h1>TrueID</h1>
+					<h1>TrueImpactDataset</h1>
 					<hr>
-					<p class="lead">TrueID is a dataset of scholarly publications, which was designed to facilitate the development and validation new methods in the area of research evaluation. The dataset consists of research publications of two types &mdash; research papers which are considered seminal work in their area and papers which provide a survey (a literature review) of a research area. It also contains related metadata, which include DOIs, titles, authors and abstracts.</p>
+					<p class="lead">TrueImpactDataset is a dataset of scholarly publications, which was designed to facilitate the development and validation new methods in the area of research evaluation. The dataset consists of research publications of two types &mdash; research papers which are considered seminal work in their area and papers which provide a survey (a literature review) of a research area. It also contains related metadata, which include DOIs, titles, authors and abstracts.</p>
 
 					<hr id="about" />
 
@@ -71,17 +80,15 @@
 					<!--<h3>Paragraphs</h3>-->
 					<p>The dataset currently contains:</p>
 					<ul>
-						<li>314 research publications &mdash; 166 seminal papers and 148 surveys</li>
+						<li>314 research publications &mdash; 166 labeled as seminal and 148 labeled as survey</li>
 						<li>DOIs and URLs, titles, abstracts, authors and years of publication</li>
 						<li>Number of citations in Google Scholar and Web of Science and number of readers in Mendeley</li>
 						<li>Citing and cited references from Web of Science</li>
 						<li>Metadata from Mendeley including reader information</li>
 					</ul>
-					<p>A detailed analysis of the dataset is provided in <a href="#">our publication.</a></p>
+					<!--<p>A detailed analysis of the dataset is provided in <a href="#">our publication.</a></p>-->
 
 					<hr id="download" />
-
-
 
 					<!-- Alignment classes -->
 					<h2>Download</h2>
@@ -93,7 +100,7 @@
 						<li><a href="trueid/papers_citing_cited.csv">Citing and cited references</a></li>
 						<li><a href="trueid/citation_edges.csv">Citation edges</a></li>
 					</ul>
-					<p><a class="button" href="trueid.tar.gz">trueid.tar.gz</a></p>
+					<p><a class="button" href="dataset.tar.gz">dataset.tar.gz</a></p>
 
 					<h3>Additional files</h3>
 					<p>Below you can download the original survey form we used to collect the data and the unprocessed responses we've received.</p>
@@ -110,7 +117,7 @@
 					<h2>Publications</h2>
 					<p>If you use TrueID in any published work, we kindly request that you cite our publication below.</p>
 					<blockquote>
-						<p>Herrmannova, D., Patton, R. M., Knoth, P., & Stahl, C. G. 2017. <i>Do Citations Identify Excellent Publications? Introducting TrueID, a New Dataset for Validating Research Evaluation Metrics.</i></p>
+						<p>Herrmannova, D., Patton, R. M., Knoth, P., & Stahl, C. G. 2017. <i>Do Citations and Readership Identify Excellent Publications? Introducting TrueImpactDataset, a New Dataset for Validating Research Evaluation Metrics.</i></p>
 					</blockquote>
 
 					<hr id="people" />
